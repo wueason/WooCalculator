@@ -15,15 +15,15 @@ $(document).ready( function(){
 		refresh();
 	});
 
-	$("#total").blur(function(){
+	$("#total").change(function(){
 		refresh();
 	});
 
-	$("#high").blur(function(){
+	$("#high").change(function(){
 	  	refresh();
 	});
 
-	$("#low").blur(function(){
+	$("#low").change(function(){
 	  	refresh();
 	});
 });
